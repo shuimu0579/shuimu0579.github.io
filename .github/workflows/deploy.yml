@@ -10,7 +10,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@master
       with:
-        submodules: false
+        submodules: true
 
     - name: Build and Deploy
       uses: solybum/hexo-deploy@master
