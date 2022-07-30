@@ -1,6 +1,5 @@
 ---
 title: "suimu2022"
-date: {{ .Date }}
 ---
 
 # 2022
