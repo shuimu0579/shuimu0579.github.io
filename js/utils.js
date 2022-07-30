@@ -7,12 +7,16 @@ HTMLElement.prototype.wrap = function(wrapper) {
 };
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
 (function() {
   const onPageLoaded = () => document.dispatchEvent(
     new Event('page:loaded', {
       bubbles: true
     })
   );
+<<<<<<< HEAD
 
   if (document.readyState === 'loading') {
     document.addEventListener('readystatechange', onPageLoaded, { once: true });
@@ -45,30 +49,27 @@ NexT.utils = {
       } else {
         $imageWrapLink.attr('data-fancybox', 'default').attr('rel', 'default');
       }
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
 
-      var imageTitle = $image.attr('title') || $image.attr('alt');
-      if (imageTitle) {
-        $imageWrapLink.append(`<p class="image-caption">${imageTitle}</p>`);
-        // Make sure img title tag will show correctly in fancybox
-        $imageWrapLink.attr('title', imageTitle).attr('data-caption', imageTitle);
-      }
-    });
+  if (document.readyState === 'loading') {
+    document.addEventListener('readystatechange', onPageLoaded, { once: true });
+  } else {
+    onPageLoaded();
+  }
+  document.addEventListener('pjax:success', onPageLoaded);
+})();
 
-    $.fancybox.defaults.hash = false;
-    $('.fancybox').fancybox({
-      loop   : true,
-      helpers: {
-        overlay: {
-          locked: false
-        }
-      }
-    });
-  },
+NexT.utils = {
 
   registerExtURL: function() {
     document.querySelectorAll('span.exturl').forEach(element => {
+<<<<<<< HEAD
       let link = document.createElement('a');
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+      const link = document.createElement('a');
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
       // https://stackoverflow.com/questions/30106476/using-javascripts-atob-to-decode-base64-doesnt-properly-decode-utf-8-strings
       link.href = decodeURIComponent(atob(element.dataset.url).split('').map(c => {
         return '%' + ('00' + c.charCodeAt(0).toString(16)).slice(-2);
@@ -87,6 +88,9 @@ NexT.utils = {
    */
   registerCopyCode: function() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
     let figure = document.querySelectorAll('figure.highlight');
     if (figure.length === 0) figure = document.querySelectorAll('pre:not(.mermaid)');
     figure.forEach(element => {
@@ -126,6 +130,7 @@ NexT.utils = {
           ta.blur(); // For iOS
           button.blur();
           document.body.removeChild(ta);
+<<<<<<< HEAD
         }
       });
       element.addEventListener('mouseleave', () => {
@@ -162,13 +167,18 @@ NexT.utils = {
         if (selected) {
           selection.removeAllRanges();
           selection.addRange(selected);
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
         }
-        document.body.removeChild(ta);
       });
-      button.addEventListener('mouseleave', event => {
+      element.addEventListener('mouseleave', () => {
         setTimeout(() => {
+<<<<<<< HEAD
           event.target.querySelector('i').className = 'fa fa-clipboard fa-fw';
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+          button.querySelector('i').className = 'fa fa-copy fa-fw';
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
         }, 300);
       });
     });
@@ -196,6 +206,7 @@ NexT.utils = {
         box.className = 'video-container';
         element.wrap(box);
 <<<<<<< HEAD
+<<<<<<< HEAD
         const width = Number(element.width);
         const height = Number(element.height);
         if (width && height) {
@@ -206,12 +217,19 @@ NexT.utils = {
         if (width && height) {
           element.parentNode.style.paddingTop = (height / width * 100) + '%';
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+        const width = Number(element.width);
+        const height = Number(element.height);
+        if (width && height) {
+          box.style.paddingTop = (height / width * 100) + '%';
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
         }
       }
     });
   },
 
   registerScrollPercent: function() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     const backToTop = document.querySelector('.back-to-top');
     const readingProgressBar = document.querySelector('.reading-progress-bar');
@@ -243,23 +261,39 @@ NexT.utils = {
     var THRESHOLD = 50;
     var backToTop = document.querySelector('.back-to-top');
     var readingProgressBar = document.querySelector('.reading-progress-bar');
+=======
+    const backToTop = document.querySelector('.back-to-top');
+    const readingProgressBar = document.querySelector('.reading-progress-bar');
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
     // For init back to top in sidebar if page was scrolled after page refresh.
     window.addEventListener('scroll', () => {
       if (backToTop || readingProgressBar) {
-        var docHeight = document.querySelector('.container').offsetHeight;
-        var winHeight = window.innerHeight;
-        var contentVisibilityHeight = docHeight > winHeight ? docHeight - winHeight : document.body.scrollHeight - winHeight;
-        var scrollPercent = Math.min(100 * window.scrollY / contentVisibilityHeight, 100);
+        const contentHeight = document.body.scrollHeight - window.innerHeight;
+        const scrollPercent = contentHeight > 0 ? Math.min(100 * window.scrollY / contentHeight, 100) : 0;
         if (backToTop) {
-          backToTop.classList.toggle('back-to-top-on', window.scrollY > THRESHOLD);
+          backToTop.classList.toggle('back-to-top-on', Math.round(scrollPercent) >= 5);
           backToTop.querySelector('span').innerText = Math.round(scrollPercent) + '%';
         }
         if (readingProgressBar) {
-          readingProgressBar.style.width = scrollPercent.toFixed(2) + '%';
+          readingProgressBar.style.setProperty('--progress', scrollPercent.toFixed(2) + '%');
         }
       }
+<<<<<<< HEAD
     });
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+      if (!Array.isArray(NexT.utils.sections)) return;
+      let index = NexT.utils.sections.findIndex(element => {
+        return element && element.getBoundingClientRect().top > 10;
+      });
+      if (index === -1) {
+        index = NexT.utils.sections.length - 1;
+      } else if (index > 0) {
+        index--;
+      }
+      this.activateNavByIndex(index);
+    }, { passive: true });
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
 
     backToTop && backToTop.addEventListener('click', () => {
       window.anime({
@@ -279,6 +313,7 @@ NexT.utils = {
     document.querySelectorAll('.tabs ul.nav-tabs .tab').forEach(element => {
       element.addEventListener('click', event => {
         event.preventDefault();
+<<<<<<< HEAD
 <<<<<<< HEAD
         // Prevent selected tab to select again.
         if (element.classList.contains('active')) return;
@@ -324,6 +359,32 @@ NexT.utils = {
           }));
         }
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+        // Prevent selected tab to select again.
+        if (element.classList.contains('active')) return;
+        const nav = element.parentNode;
+        // Add & Remove active class on `nav-tabs` & `tab-content`.
+        [...nav.children].forEach(target => {
+          target.classList.toggle('active', target === element);
+        });
+        // https://stackoverflow.com/questions/20306204/using-queryselector-with-ids-that-are-numbers
+        const tActive = document.getElementById(element.querySelector('a').getAttribute('href').replace('#', ''));
+        [...tActive.parentNode.children].forEach(target => {
+          target.classList.toggle('active', target === tActive);
+        });
+        // Trigger event
+        tActive.dispatchEvent(new Event('tabs:click', {
+          bubbles: true
+        }));
+        if (!CONFIG.stickytabs) return;
+        const offset = nav.parentNode.getBoundingClientRect().top + window.scrollY + 10;
+        window.anime({
+          targets  : document.scrollingElement,
+          duration : 500,
+          easing   : 'linear',
+          scrollTop: offset
+        });
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
       });
     });
 
@@ -334,6 +395,7 @@ NexT.utils = {
     // Get responsive height passed from iframe.
     window.addEventListener('message', ({ data }) => {
 <<<<<<< HEAD
+<<<<<<< HEAD
       if (typeof data === 'string' && data.includes('ciu_embed')) {
         const featureID = data.split(':')[1];
         const height = data.split(':')[2];
@@ -342,6 +404,11 @@ NexT.utils = {
         var featureID = data.split(':')[1];
         var height = data.split(':')[2];
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+      if (typeof data === 'string' && data.includes('ciu_embed')) {
+        const featureID = data.split(':')[1];
+        const height = data.split(':')[2];
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
         document.querySelector(`iframe[data-feature=${featureID}]`).style.height = parseInt(height, 10) + 5 + 'px';
       }
     }, false);
@@ -349,10 +416,14 @@ NexT.utils = {
 
   registerActiveMenuItem: function() {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
     document.querySelectorAll('.menu-item a[href]').forEach(target => {
       const isSamePath = target.pathname === location.pathname || target.pathname === location.pathname.replace('index.html', '');
       const isSubPath = !CONFIG.root.startsWith(target.pathname) && location.pathname.startsWith(target.pathname);
       target.classList.toggle('menu-item-active', target.hostname === location.hostname && (isSamePath || isSubPath));
+<<<<<<< HEAD
 =======
     document.querySelectorAll('.menu-item').forEach(element => {
       var target = element.querySelector('a[href]');
@@ -361,10 +432,13 @@ NexT.utils = {
       var isSubPath = !CONFIG.root.startsWith(target.pathname) && location.pathname.startsWith(target.pathname);
       element.classList.toggle('menu-item-active', target.hostname === location.hostname && (isSamePath || isSubPath));
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
     });
   },
 
   registerLangSelect: function() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     const selects = document.querySelectorAll('.lang-select');
     selects.forEach(sel => {
@@ -386,11 +460,24 @@ NexT.utils = {
         let url = target.dataset.href;
         window.pjax ? window.pjax.loadUrl(url) : window.location.href = url;
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+    const selects = document.querySelectorAll('.lang-select');
+    selects.forEach(sel => {
+      sel.value = CONFIG.page.lang;
+      sel.addEventListener('change', () => {
+        const target = sel.options[sel.selectedIndex];
+        document.querySelectorAll('.lang-select-label span').forEach(span => {
+          span.innerText = target.text;
+        });
+        // Disable Pjax to force refresh translation of menu item
+        window.location.href = target.dataset.href;
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
       });
     });
   },
 
   registerSidebarTOC: function() {
+<<<<<<< HEAD
 <<<<<<< HEAD
     this.sections = [...document.querySelectorAll('.post-toc li a.nav-link')].map(element => {
       const target = document.getElementById(decodeURI(element.getAttribute('href')).replace('#', ''));
@@ -403,27 +490,42 @@ NexT.utils = {
     const sections = [...navItems].map(element => {
       var link = element.querySelector('a.nav-link');
       var target = document.getElementById(decodeURI(link.getAttribute('href')).replace('#', ''));
+=======
+    this.sections = [...document.querySelectorAll('.post-toc li a.nav-link')].map(element => {
+      const target = document.getElementById(decodeURI(element.getAttribute('href')).replace('#', ''));
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
       // TOC item animation navigate.
-      link.addEventListener('click', event => {
+      element.addEventListener('click', event => {
         event.preventDefault();
+<<<<<<< HEAD
         var offset = target.getBoundingClientRect().top + window.scrollY;
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+        const offset = target.getBoundingClientRect().top + window.scrollY;
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
         window.anime({
           targets  : document.scrollingElement,
           duration : 500,
           easing   : 'linear',
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
           scrollTop: offset,
           complete : () => {
             history.pushState(null, document.title, element.href);
           }
+<<<<<<< HEAD
 =======
           scrollTop: offset + 10
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
         });
       });
       return target;
     });
+<<<<<<< HEAD
 <<<<<<< HEAD
   },
 
@@ -525,69 +627,52 @@ NexT.utils = {
       });
     }
     createIntersectionObserver(document.documentElement.scrollHeight);
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
   },
 
-  hasMobileUA: function() {
-    let ua = navigator.userAgent;
-    let pa = /iPad|iPhone|Android|Opera Mini|BlackBerry|webOS|UCWEB|Blazer|PSP|IEMobile|Symbian/g;
-    return pa.test(ua);
+  registerPostReward: function() {
+    const button = document.querySelector('.reward-container button');
+    if (!button) return;
+    button.addEventListener('click', () => {
+      document.querySelector('.post-reward').classList.toggle('active');
+    });
   },
 
-  isTablet: function() {
-    return window.screen.width < 992 && window.screen.width > 767 && this.hasMobileUA();
-  },
+  activateNavByIndex: function(index) {
+    const target = document.querySelectorAll('.post-toc li a.nav-link')[index];
+    if (!target || target.classList.contains('active-current')) return;
 
-  isMobile: function() {
-    return window.screen.width < 767 && this.hasMobileUA();
-  },
-
-  isDesktop: function() {
-    return !this.isTablet() && !this.isMobile();
-  },
-
-  supportsPDFs: function() {
-    let ua = navigator.userAgent;
-    let isFirefoxWithPDFJS = ua.includes('irefox') && parseInt(ua.split('rv:')[1].split('.')[0], 10) > 18;
-    let supportsPdfMimeType = typeof navigator.mimeTypes['application/pdf'] !== 'undefined';
-    let isIOS = /iphone|ipad|ipod/i.test(ua.toLowerCase());
-    return isFirefoxWithPDFJS || (supportsPdfMimeType && !isIOS);
-  },
-
-  /**
-   * Init Sidebar & TOC inner dimensions on all pages and for all schemes.
-   * Need for Sidebar/TOC inner scrolling if content taller then viewport.
-   */
-  initSidebarDimension: function() {
-    var sidebarNav = document.querySelector('.sidebar-nav');
-    var sidebarNavHeight = sidebarNav.style.display !== 'none' ? sidebarNav.offsetHeight : 0;
-    var sidebarOffset = CONFIG.sidebar.offset || 12;
-    var sidebarb2tHeight = CONFIG.back2top.enable && CONFIG.back2top.sidebar ? document.querySelector('.back-to-top').offsetHeight : 0;
-    var sidebarSchemePadding = (CONFIG.sidebar.padding * 2) + sidebarNavHeight + sidebarb2tHeight;
-    // Margin of sidebar b2t: -4px -10px -18px, brings a different of 22px.
-    if (CONFIG.scheme === 'Pisces' || CONFIG.scheme === 'Gemini') sidebarSchemePadding += (sidebarOffset * 2) - 22;
-    // Initialize Sidebar & TOC Height.
-    var sidebarWrapperHeight = document.body.offsetHeight - sidebarSchemePadding + 'px';
-    document.querySelector('.site-overview-wrap').style.maxHeight = sidebarWrapperHeight;
-    document.querySelector('.post-toc-wrap').style.maxHeight = sidebarWrapperHeight;
+    document.querySelectorAll('.post-toc .active').forEach(element => {
+      element.classList.remove('active', 'active-current');
+    });
+    target.classList.add('active', 'active-current');
+    let parent = target.parentNode;
+    while (!parent.matches('.post-toc')) {
+      if (parent.matches('li')) parent.classList.add('active');
+      parent = parent.parentNode;
+    }
+    // Scrolling to center active TOC element if TOC content is taller then viewport.
+    const tocElement = document.querySelector('.sidebar-panel-container');
+    if (!tocElement.parentNode.classList.contains('sidebar-toc-active')) return;
+    window.anime({
+      targets  : tocElement,
+      duration : 200,
+      easing   : 'linear',
+      scrollTop: tocElement.scrollTop - (tocElement.offsetHeight / 2) + target.getBoundingClientRect().top - tocElement.getBoundingClientRect().top
+    });
   },
 
   updateSidebarPosition: function() {
-    var sidebarNav = document.querySelector('.sidebar-nav');
-    var hasTOC = document.querySelector('.post-toc');
-    if (hasTOC) {
-      sidebarNav.style.display = '';
-      sidebarNav.classList.add('motion-element');
-      document.querySelector('.sidebar-nav-toc').click();
-    } else {
-      sidebarNav.style.display = 'none';
-      sidebarNav.classList.remove('motion-element');
-      document.querySelector('.sidebar-nav-overview').click();
-    }
-    NexT.utils.initSidebarDimension();
-    if (!this.isDesktop() || CONFIG.scheme === 'Pisces' || CONFIG.scheme === 'Gemini') return;
+    if (window.innerWidth < 992 || CONFIG.scheme === 'Pisces' || CONFIG.scheme === 'Gemini') return;
     // Expand sidebar on post detail page by default, when post has a toc.
+<<<<<<< HEAD
     var display = CONFIG.page.sidebar;
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+    const hasTOC = document.querySelector('.post-toc');
+    let display = CONFIG.page.sidebar;
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
     if (typeof display !== 'boolean') {
       // There's no definition sidebar in the page front-matter.
       display = CONFIG.sidebar.display === 'always' || (CONFIG.sidebar.display === 'post' && hasTOC);
@@ -598,6 +683,9 @@ NexT.utils = {
   },
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
   activateSidebarPanel: function(index) {
     const duration = 200;
     const sidebar = document.querySelector('.sidebar-inner');
@@ -631,6 +719,7 @@ NexT.utils = {
       return this.getScript(src, {
         condition: legacyCondition
       }).then(options);
+<<<<<<< HEAD
     }
     const {
       condition = false,
@@ -711,23 +800,78 @@ NexT.utils = {
       };
       script.src = url;
       document.head.appendChild(script);
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
     }
-  },
+    const {
+      condition = false,
+      attributes: {
+        id = '',
+        async = false,
+        defer = false,
+        crossOrigin = '',
+        dataset = {},
+        ...otherAttributes
+      } = {},
+      parentNode = null
+    } = options;
+    return new Promise((resolve, reject) => {
+      if (condition) {
+        resolve();
+      } else {
+        const script = document.createElement('script');
 
-  loadComments: function(element, callback) {
-    if (!CONFIG.comments.lazyload || !element) {
-      callback();
-      return;
-    }
-    let intersectionObserver = new IntersectionObserver((entries, observer) => {
-      let entry = entries[0];
-      if (entry.isIntersecting) {
-        callback();
-        observer.disconnect();
+        if (id) script.id = id;
+        if (crossOrigin) script.crossOrigin = crossOrigin;
+        script.async = async;
+        script.defer = defer;
+        Object.assign(script.dataset, dataset);
+        Object.entries(otherAttributes).forEach(([name, value]) => {
+          script.setAttribute(name, String(value));
+        });
+
+        script.onload = resolve;
+        script.onerror = reject;
+
+        if (typeof src === 'object') {
+          const { url, integrity } = src;
+          script.src = url;
+          if (integrity) {
+            script.integrity = integrity;
+            script.crossOrigin = 'anonymous';
+          }
+        } else {
+          script.src = src;
+        }
+        (parentNode || document.head).appendChild(script);
       }
     });
+  },
+
+  loadComments: function(selector, legacyCallback) {
+    if (legacyCallback) {
+      return this.loadComments(selector).then(legacyCallback);
+    }
+    return new Promise(resolve => {
+      const element = document.querySelector(selector);
+      if (!CONFIG.comments.lazyload || !element) {
+        resolve();
+        return;
+      }
+      const intersectionObserver = new IntersectionObserver((entries, observer) => {
+        const entry = entries[0];
+        if (!entry.isIntersecting) return;
+
+        resolve();
+        observer.disconnect();
+      });
+      intersectionObserver.observe(element);
+    });
+<<<<<<< HEAD
     intersectionObserver.observe(element);
     return intersectionObserver;
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
   }
 };

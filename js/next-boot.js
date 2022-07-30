@@ -1,8 +1,12 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* global NexT, CONFIG */
 =======
 /* global NexT, CONFIG, Velocity */
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+/* global NexT, CONFIG */
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
 
 NexT.boot = {};
 
@@ -12,6 +16,7 @@ NexT.boot.registerEvents = function() {
   NexT.utils.registerCanIUseTag();
 
   // Mobile top menu bar.
+<<<<<<< HEAD
 <<<<<<< HEAD
   document.querySelector('.site-nav-toggle .toggle').addEventListener('click', event => {
     event.currentTarget.classList.toggle('toggle-close');
@@ -33,66 +38,31 @@ NexT.boot.registerEvents = function() {
       const target = document.querySelector(`.tabs ul.nav-tabs li a[href="${tHash}"]`);
 =======
   document.querySelector('.site-nav-toggle .toggle').addEventListener('click', () => {
+=======
+  document.querySelector('.site-nav-toggle .toggle').addEventListener('click', event => {
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
     event.currentTarget.classList.toggle('toggle-close');
-    var siteNav = document.querySelector('.site-nav');
-    var animateAction = siteNav.classList.contains('site-nav-on') ? 'slideUp' : 'slideDown';
-
-    if (typeof Velocity === 'function') {
-      Velocity(siteNav, animateAction, {
-        duration: 200,
-        complete: function() {
-          siteNav.classList.toggle('site-nav-on');
-        }
-      });
-    } else {
-      siteNav.classList.toggle('site-nav-on');
-    }
+    const siteNav = document.querySelector('.site-nav');
+    if (!siteNav) return;
+    siteNav.style.setProperty('--scroll-height', siteNav.scrollHeight + 'px');
+    document.body.classList.toggle('site-nav-on');
   });
 
-  var TAB_ANIMATE_DURATION = 200;
   document.querySelectorAll('.sidebar-nav li').forEach((element, index) => {
-    element.addEventListener('click', event => {
-      var item = event.currentTarget;
-      var activeTabClassName = 'sidebar-nav-active';
-      var activePanelClassName = 'sidebar-panel-active';
-      if (item.classList.contains(activeTabClassName)) return;
-
-      var targets = document.querySelectorAll('.sidebar-panel');
-      var target = targets[index];
-      var currentTarget = targets[1 - index];
-      window.anime({
-        targets : currentTarget,
-        duration: TAB_ANIMATE_DURATION,
-        easing  : 'linear',
-        opacity : 0,
-        complete: () => {
-          // Prevent adding TOC to Overview if Overview was selected when close & open sidebar.
-          currentTarget.classList.remove(activePanelClassName);
-          target.style.opacity = 0;
-          target.classList.add(activePanelClassName);
-          window.anime({
-            targets : target,
-            duration: TAB_ANIMATE_DURATION,
-            easing  : 'linear',
-            opacity : 1
-          });
-        }
-      });
-
-      [...item.parentNode.children].forEach(element => {
-        element.classList.remove(activeTabClassName);
-      });
-      item.classList.add(activeTabClassName);
+    element.addEventListener('click', () => {
+      NexT.utils.activateSidebarPanel(index);
     });
   });
 
-  window.addEventListener('resize', NexT.utils.initSidebarDimension);
-
   window.addEventListener('hashchange', () => {
-    var tHash = location.hash;
+    const tHash = location.hash;
     if (tHash !== '' && !tHash.match(/%\S{2}/)) {
+<<<<<<< HEAD
       var target = document.querySelector(`.tabs ul.nav-tabs li a[href="${tHash}"]`);
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+      const target = document.querySelector(`.tabs ul.nav-tabs li a[href="${tHash}"]`);
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
       target && target.click();
     }
   });
@@ -102,6 +72,7 @@ NexT.boot.refresh = function() {
 
   /**
    * Register JS handlers by condition option.
+<<<<<<< HEAD
 <<<<<<< HEAD
    * Need to add config option in Front-End at 'scripts/helpers/next-config.js' file.
    */
@@ -115,25 +86,42 @@ NexT.boot.refresh = function() {
   CONFIG.fancybox && NexT.utils.wrapImageWithFancyBox();
   CONFIG.mediumzoom && window.mediumZoom('.post-body :not(a) > img, .post-body > img');
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+   * Need to add config option in Front-End at 'scripts/helpers/next-config.js' file.
+   */
+  CONFIG.prism && window.Prism.highlightAll();
+  CONFIG.mediumzoom && window.mediumZoom('.post-body :not(a) > img, .post-body > img', {
+    background: 'var(--content-bg-color)'
+  });
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
   CONFIG.lazyload && window.lozad('.post-body img').observe();
   CONFIG.pangu && window.pangu.spacingPage();
 
   CONFIG.exturl && NexT.utils.registerExtURL();
+<<<<<<< HEAD
 <<<<<<< HEAD
   NexT.utils.wrapTableWithBox();
   NexT.utils.registerCopyCode();
 =======
   CONFIG.copycode.enable && NexT.utils.registerCopyCode();
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+  NexT.utils.wrapTableWithBox();
+  NexT.utils.registerCopyCode();
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
   NexT.utils.registerTabsTag();
   NexT.utils.registerActiveMenuItem();
   NexT.utils.registerLangSelect();
   NexT.utils.registerSidebarTOC();
 <<<<<<< HEAD
+<<<<<<< HEAD
   NexT.utils.registerPostReward();
 =======
   NexT.utils.wrapTableWithBox();
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+  NexT.utils.registerPostReward();
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
   NexT.utils.registerVideoIframe();
 };
 
@@ -141,6 +129,7 @@ NexT.boot.motion = function() {
   // Define Motion Sequence & Bootstrap Motion.
   if (CONFIG.motion.enable) {
     NexT.motion.integrator
+<<<<<<< HEAD
 <<<<<<< HEAD
       .add(NexT.motion.middleWares.header)
       .add(NexT.motion.middleWares.postList)
@@ -152,6 +141,12 @@ NexT.boot.motion = function() {
       .add(NexT.motion.middleWares.postList)
       .add(NexT.motion.middleWares.sidebar)
 >>>>>>> b2be23d79bc8802262aa827f59c5e1f082493245
+=======
+      .add(NexT.motion.middleWares.header)
+      .add(NexT.motion.middleWares.postList)
+      .add(NexT.motion.middleWares.sidebar)
+      .add(NexT.motion.middleWares.footer)
+>>>>>>> 952ca0cab08c9a62af43f720125430f99b387e00
       .bootstrap();
   }
   NexT.utils.updateSidebarPosition();
