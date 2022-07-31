@@ -2,7 +2,7 @@
 
 baseURL = 'https://suimulearn.cn/'
 name = "suimu"
-title = 'suimu的个人空间'
+title = 'suimu的空间'
 paginate = 8
 theme = "m10c"
 
@@ -32,9 +32,9 @@ time_format = "3:04 PM"
   [[params.social]]
     icon = "gmail"
     name = "Gmail"
-    link = "mailto:shuimu0579@gmail.com"
+    url = "mailto:shuimu0579@gmail.com"
   [[params.social]]
     icon = "wechat"
     name = "WeChat"
-    link = "https://s2.loli.net/2022/07/31/svrIXDtGHNleLgO.jpg"   
+    url = "https://s2.loli.net/2022/07/31/svrIXDtGHNleLgO.jpg"   
 
