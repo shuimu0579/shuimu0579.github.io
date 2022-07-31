@@ -1,34 +1,40 @@
+
+
 baseURL = 'https://suimulearn.cn/'
 name = "suimu"
-
 title = 'suimu的个人空间'
-email = "shuimu0579@gmail.com"
-
+paginate = 8
 theme = "m10c"
+
 languageCode = 'zh-CN'
 enableEmoji = true
-paginate = 10
 date_format = "2006-01-02"
 time_format = "3:04 PM"
 
-
-[[params.social]]
-  icon = "github"
-  name = "GitHub"
-  url = "https://github.com/shuimu0579"
-
-[[params.social]]
-  icon = "gmail"
-  icon_pack = "Gmail"
-  link = "mailto:shuimu0579@gmail.com"
+[author]
+  name = "suimu"
+  homepage = "https://suimulearn.cn/"
 
 [params]
-  style.darkestColor = "#d35050"
-  style.darkColor = "#212121"
-  style.lightColor = "#f5e3e0"
-  style.lightestColor = "#f5f5f5"
-  style.primaryColor = "#ffffff"
-  wechat = "https://s2.loli.net/2022/07/31/svrIXDtGHNleLgO.jpg"
   avatar = "https://s2.loli.net/2022/07/31/N8HgOPzc5AIRLxs.jpg" 
   description = "莫道昆明池水浅，观鱼胜过富春江"
+  wechat = "https://s2.loli.net/2022/07/31/svrIXDtGHNleLgO.jpg"
+  [params.style]
+    darkestColor = "#083537"
+    darkColor = "#212121"
+    lightColor = "#f5e3e0"
+    lightestColor = "#f5f5f5"
+    primaryColor = "#ffffff"
+  [[params.social]]
+    icon = "github"
+    name = "GitHub"
+    url = "https://github.com/shuimu0579"
+  [[params.social]]
+    icon = "gmail"
+    name = "Gmail"
+    link = "mailto:shuimu0579@gmail.com"
+  [[params.social]]
+    icon = "wechat"
+    name = "WeChat"
+    link = "https://s2.loli.net/2022/07/31/svrIXDtGHNleLgO.jpg"   
 
