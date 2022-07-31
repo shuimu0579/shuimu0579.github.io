@@ -5,17 +5,13 @@ avatar = "https://sm.ms/image/N8HgOPzc5AIRLxs"
 title = 'suimu的个人空间'
 email = "shuimu0579@gmail.com"
 
-theme = "nuo"
+theme = "m10c"
 languageCode = 'zh-CN'
 enableEmoji = true
 paginate = 10
 date_format = "2006-01-02"
 time_format = "3:04 PM"
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
 
 [[params.social]]
   icon = "github"
