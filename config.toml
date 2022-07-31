@@ -1,7 +1,6 @@
 baseURL = 'https://suimulearn.cn/'
 name = "suimu"
-gravatar = false
-avatar = "https://sm.ms/image/N8HgOPzc5AIRLxs" 
+
 title = 'suimu的个人空间'
 email = "shuimu0579@gmail.com"
 
@@ -19,8 +18,8 @@ time_format = "3:04 PM"
   url = "https://github.com/shuimu0579"
 
 [[params.social]]
-  icon = "envelope"
-  icon_pack = "fa"
+  icon = "gmail"
+  icon_pack = "Gmail"
   link = "mailto:shuimu0579@gmail.com"
 
 [params]
@@ -29,5 +28,8 @@ time_format = "3:04 PM"
   style.lightColor = "#f5e3e0"
   style.lightestColor = "#f5f5f5"
   style.primaryColor = "#ffffff"
-  wechat= "https://sm.ms/image/svrIXDtGHNleLgO"
+  wechat = "https://sm.ms/image/svrIXDtGHNleLgO"
+  gravatar = false
+  avatar = "https://sm.ms/image/N8HgOPzc5AIRLxs" 
+  description = "莫道昆明池水浅，观鱼胜过富春江"
 
