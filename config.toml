@@ -1,21 +1,37 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
+baseURL = 'https://suimulearn.cn/'
+name = "suimu"
+gravatar = false
+avatar = "https://sm.ms/image/N8HgOPzc5AIRLxs" 
 title = 'suimu的个人空间'
-theme = "m10c"
+email = "shuimu0579@gmail.com"
+
+theme = "nuo"
+languageCode = 'zh-CN'
+enableEmoji = true
+paginate = 10
+date_format = "2006-01-02"
+time_format = "3:04 PM"
 
 [[menu.main]]
-  identifier = "tags"
-  name = "Tags"
-  url = "/tags/"
+  name = "Home"
+  url = "/"
+  weight = 1
 
 [[params.social]]
   icon = "github"
   name = "GitHub"
   url = "https://github.com/shuimu0579"
 
-[params.style]
-  darkestColor = "#d35050"
-  darkColor = "#212121"
-  lightColor = "#f5e3e0"
-  lightestColor = "#f5f5f5"
-  primaryColor = "#ffffff"
+[[params.social]]
+  icon = "envelope"
+  icon_pack = "fa"
+  link = "mailto:shuimu0579@gmail.com"
+
+[params]
+  style.darkestColor = "#d35050"
+  style.darkColor = "#212121"
+  style.lightColor = "#f5e3e0"
+  style.lightestColor = "#f5f5f5"
+  style.primaryColor = "#ffffff"
+  wechat= "https://sm.ms/image/svrIXDtGHNleLgO"
+
