@@ -1,4 +1,7 @@
-# Disco_Diffusion使用教程
+---
+title: "Disco_Diffusion使用教程"
+date: 2022-08-05
+---
 
 - [Disco_Diffusion使用教程--西乔](https://mp.weixin.qq.com/s/mfCKgdZCEoP8QgeQt8Y7aw)
 
