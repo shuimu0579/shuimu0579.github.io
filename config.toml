@@ -19,7 +19,7 @@ lightgallery = true
   mail = "shuimu0579@gmail.com"
 
 [params]
-  avatar = "https://s2.loli.net/2022/08/02/Gq7rQTuhWFPUANm.jpg" 
+  avatar = "/avatar.jpeg" 
   favicon = "https://s2.loli.net/2022/08/02/Pq5vFfjpWy1LKnd.png"
   description = "莫道昆明池水浅，观鱼胜过富春江"
   wechat = "https://s2.loli.net/2022/07/31/svrIXDtGHNleLgO.jpg"
