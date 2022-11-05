@@ -2,7 +2,6 @@
 title: "思考工具Hepta"
 date: 2022-11-05
 ---
-
 <style>
 .blockquote {
 
