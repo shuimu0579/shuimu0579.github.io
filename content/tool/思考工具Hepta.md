@@ -3,7 +3,7 @@ title: "思考工具Hepta"
 date: 2022-11-05
 ---
 <style>
-.blockquote {
+.blockquote, h2, p{
 
    margin-left:0.6em !important;
 
