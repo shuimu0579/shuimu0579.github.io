@@ -38,33 +38,12 @@ date: 2022-11-05
 
 去微信读书 App 查看上传的电子书
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCKHpzAcDDx8eG7WSlL2ChgPGHjbI3JP8p5zRibRqWuZfjEwZXHlnpEiaQ/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtC2TJibibgFvc7JsVrhNPbmoc7qnhL6qF9pflp5tpcM0tgu8J9fBwDCdvw/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCmRQ7OVyTicDD6g9AYxIQADsjrnEYuUok8sowicpOMhvZ2m5RHCd8mu4g/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtClnfSGbL2oga6SicLYPBBTRRNuqO6Rpyd7vkKHLXs4ANyt0q4tLA0Jfg/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCcrvKvZuuekjWLm6LZ182ibJibAEnzQLpCqI5nRtbycC4xAkDHyx91ibibQ/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtC8pvowU651Zib2YZDqzNXjG8vhP6e8BZVewsG1IpKibPiaIlOSU0eVmZEA/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCUM9J0pCCyFtfCz6tTTLJTaph4XJjQDy28O5tPWEujTcfQhPLJFjGTw/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCQeKicVfYBx4hWqib2oYiao7Srh3lsBNlYMdY11S4icFqk90C7KuN9ParVw/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCTGA8jMEbicwfzibQhMHZd67w8hpDQkSE93BSdiaxTib32WR7urRK0du1vg/640)
-
 阅读的习惯，是我们生活中为数不多的极其重要的习惯之一。  
 
 有了微信读书和 zlibrary 这样的工具，就能在书籍的海洋中尽情的遨游。
 
 最后的最后，我想以一段话作为结尾，与热爱阅读的你共勉：
 
-![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCCZlaIAFLkkm9IKZ0r6iclR7caL0pZDdv1f9ZwHicdmEpnrSXnJqHiaenQ/640)
-
-学习是一种行动反射，不是为了晓得些“知识”，要切己体察，代入自己要事上琢磨，落实行动，这就是知行合一。否则，读书也是一种玩物丧志。
-
+学习是一种行动反射，不是为了晓得些“知识”，要切己体察，代入自己要事上琢磨，落实行动，这就是知行合一。否则，读书也是一种玩物丧志--华杉。
 
 题图来源：https://unsplash.com
