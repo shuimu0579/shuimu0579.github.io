@@ -2,7 +2,7 @@
 title: "思考工具Hepta"
 date: 2022-11-05
 ---
-<link rel="stylesheet" type="text/css" href="../../static/common.css">
+<link rel="stylesheet" type="text/css" href="/common.css">
 
 在给这篇文章取标题的时候，没有用笔记软件、记录工具、存储工具等字眼来命名，而是称Hepta这个软件是一个思考工具，一个基于可视化的卡片式的思考工具。
 

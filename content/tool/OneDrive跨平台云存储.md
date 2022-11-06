@@ -2,7 +2,7 @@
 title: "OneDrive跨平台云存储"
 date: 2022-08-04
 ---
-<link rel="stylesheet" type="text/css" href="../../static/common.css">
+<link rel="stylesheet" type="text/css" href="/common.css">
 
 说到跨平台云存储工具，大家应该都不会陌生，印象笔记、有道云笔记、github ( https://mp.weixin.qq.com/s/Oh9pqwNNnkcNmzCQVoVGig )、百度网盘等都可以做云存储。有了今天这个 OneDrive,上述的那几个跨平台存储工具都用得少了。配合 markdown 语法在 PC 和手机端查看和编辑文件，随时随地的更新思考和想法。
 

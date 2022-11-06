@@ -2,7 +2,7 @@
 title: "个人笔记工具Obsidian"
 date: 2022-08-07
 ---
-<link rel="stylesheet" type="text/css" href="../../static/common.css">
+<link rel="stylesheet" type="text/css" href="/common.css">
 
 ![Obsidian.png](https://s2.loli.net/2022/08/07/dG9iEe1IQo5Vquk.png)
 
