@@ -35,7 +35,7 @@ date: 2022-08-07
 
 这个笔记工具如果是免费的，就最好不过了。
 
-<div class="blockquote">为什么选择obsidian作为个人笔记库</div>
+<blockquote class="blockquote">为什么选择obsidian作为个人笔记库</blockquote>
 
 完美适配markdown语法，布局和样式简约而不简单。
 
@@ -51,7 +51,7 @@ Windows、Mac、iOS、iPadOS、Android等多端( <https://obsidian.md/mobile> )�
 
 对个人用户永久免费( <https://obsidian.md/pricing> )。
 
-<div class="blockquote">Obsidian + iCloud，打造个人笔记库</div>
+<blockquote class="blockquote">Obsidian + iCloud，打造个人笔记库</blockquote>
 
 如果你的电脑是Mac,你的手机是iOS系统，强烈建议使用 iCloud \+ Obsidian，完成电脑端和手机端的数据同步。其中iCloud和Obsidian在电脑端、手机端都使用。
 
