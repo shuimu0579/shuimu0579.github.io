@@ -13,33 +13,14 @@ date: 2022-11-05
 
 有了上网工具和美区 AppleID 之后，就可以顺利下载 Netflix App 了。
 
-> 注册 Netflix
+<blockquote class="blockquote">注册 Netflix</blockquote>
 
 顺利注册 Netflix 的前提是已经有了 kexue 上网工具。
 
 接下来按照截图一步步注册就可以了。
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWhpreQAkgricUuVYtiafBWu8jUDyiatmMRKFeUORU2RBViaRibuVvgzreguw/640)
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWcic4WsGtjiaNh4FcJFoFgabcXNW9ceEFaMx3ol8Ln3p9jcNDxsyhd5Jw/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWjZ8919ha7AjVL7rX49tYkVV7PKfUE1vg2HNx5XDHuOjNmq2ibSgjj5A/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWLgtpKRdIk0Cf2P83wwKVHloAe4xH6ic0bicP3qfFTqKPsQtz5ibbN5h5w/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMW3LIDBLjicCtQGEJKcRHMM5POWV59arCgcianjicIoSx4lnaetxFYtf3icg/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWOmw3IPC45cMia7hzgAmo9RK7AygcTN49SezBTlN4VAbjKPcCMeGRpSg/640)
-
-  
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWlvnwA9CicvQiaRWm9xPMOVnna7uFRRfiaDgGkuibYmF7oX8WOvcPN50how/640)
-
-  
-
-  
-
-> 如何购买礼品卡？
+<blockquote class="blockquote">如何购买礼品卡？</blockquote>
 
 可以在某宝上购买礼品卡，搜索`Netflix Gift Card 美元礼品卡`，选择一家店铺进行购买。
 
@@ -53,31 +34,17 @@ date: 2022-11-05
 ==
 ```
 
-  
-
-![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWSRphfiaOxnTbt9OYLqianoOjvZBDSiaAdN4wUHGDeLbplKM3ZTicPJwsUA/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
-
-  
-
-> 会员过期了，应该怎么办？
+<blockquote class="blockquote">会员过期了，应该怎么办？</blockquote>
 
 可以再次通过 Netflix 礼品卡充会员，首先在某宝上购买 Netflix 礼品卡。
 
 接下来就是兑换礼品卡( https://www.netflix.com/redeem )
 
-  
-
-> 怎么观看 Netflix
+<blockquote class="blockquote">怎么观看 Netflix</blockquote>
 
 手机上观看剧集的前提是 kexue 上网和下载好 Netflix App(iPhone 手机需要美区 AppleID)。
 
 记得先 kexue 上网，路线选择`美国`或者`美国-奈飞专线`，然后打开 Netflix App，就可以顺利看剧了。
-
-![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWor0RXMMbQWReWxkNeh7NxYOA8X6Fzp0uWWEIKdic7YHvd8zSPmYibwHQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
-
-  
-
-![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSmIOvmxnZvPiaYxrepNLwiaMWmziaVWfzkcYibJLfB7icHNia5WIgahCtWkhmrDzvzXPLXQHfHv7MRPDu3A/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
 
 Tips：关于 kexue 上网路线选择，有什么讲究？
 

@@ -34,108 +34,62 @@ GitHub( https://www.githubs.cn/post/what-is-github )是一个面向开源及私�
 - Visual Studio Code 编辑器下载地址: https://code.visualstudio.com/。
 - 下载完成之后，打开这个编辑器，就是这个界面了。
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHB4ytibmwBU52naUDDUw43Q6N4ibfayfbhQVFUefPbAeE1ljWltbGq1vcA/640)
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBDfDUXpiaelPcXqw9LKGusxJDdm7k2o8no7yPoK09t1NhajlFOB2DdGQ/640)
-
 <blockquote class="blockquote">怎么下载git</blockquote>
 
 - 上面我提到了git这个工具，对于程序员来说它是一个有用的版本管理工具，其实对于非程序员来说也是很有用的，比如一篇文章太长，就可以分多次写，可以用git多次提交,每次都会生成提交记录，也可以查看自己的提交记录。这样把一个大任务分解为许多的小任务，只要一个个小任务完成了，大任务也完成了，这样就不容易犯拖延症。甚至极端一点的，一篇文章没想好怎么写，先只写个标题踏出第一步，然后提交到远程仓库，下次有时间有思路了，在写了标题的基础上接着写，也是可以的。 
 -  git下载地址( https://git-scm.com/download ),根据自己电脑系统的不同，点击不同的git下载链接。接下来的下载安装均以Windows为例。
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBDFkt769VZ2OmWJq4myRQiceW2PeFicQa3eUOex11kVia9WnkoTfWKPicUQ/640)
-
 - git安装包下载之后，接下来就是安装环节了。然后一路next，**直到！**下面截图这一步，选择Visual Studio Code作为git的默认编辑器
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBYTzustdtRYzPu6rHiaLDz5IQuribOlGQvRXoribgrfgJRQ5iahSMy77Szg/640)
 
 - 上图设置好之后，又是一通next,最后点击`install`按钮。
 -  怎么判断git是否安装成功了呢？重新打开Visual Studio Code,有下面截图的内容，就代表git安装成功了。
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHB1au70bola1qLsuYe295EhkxHC2Yzxa9ziaJYRIicsZxeBZMicDzy6RFJQ/640)
 
 <blockquote class="blockquote">怎么注册GitHub账号</blockquote>
 
 - 打开链接( https://github.com/ ), 点击页面右上侧的 `Sign in`按钮
 - 进入注册页面，账号、密码、验证账号等等都填上，然后创建账户，截图如下：
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBL4BeU2hDwJ3IV2tEwHicP12AQn8vcicaiamA0FwxDfv2oPEotYgbPaywA/640)
-
 - 进入设置页面，截图如下：
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBALg0ZpougOWAcicREIsNLgkY9BgG0xFeQtdwOKCeUicJQwBVqPDuPJKA/640)
 
 - 进入邮箱验证引导页
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBhPPUC3PrNh0fZaw0f0qJdP9zWXkycgicEwiab0EaqosqKCr2r4LX09tg/640)
-
 - 在邮箱里面验证成功，会跳转到验证确认页，截图如下：
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBJhTaknYVPU84UotHZmCic0ma41sdPLkKZIJEh8ksxPr6B6IO94yIreg/640)
-
 - 至此，账号创建成功，点击`Skip this for now`按钮，就进入 github 创建项目（仓库）引导页，截图如下：
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBG7ERRh9GJglyDxP9GLH0bC1xMbxiaS7Q4chzVF4tzvyQMC4NOkyH3fA/640)
 
 <blockquote class="blockquote">怎么在github里面创建自己的项目？</blockquote>
 
 - 在上图里面，点击`Create repository`按钮，或者点击( https://github.com/new ),就进入创建项目页面了，截图如下：
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHB4qoakAQY4hLOAO8EUb8NxWibm5pyicDkrM94p5PjbLDLNrH9mSpnE1fA/640)
-
 - 在上图中，点击下方的绿色背景按钮，就跳转到项目详情页了，截图所示：
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBbicZSFLCQajFKvXaopo2u2d44B2NBr1SfDcUEqvnUicxc9gmTW2V2W0g/640)
 
 <blockquote class="blockquote">怎么将github上项目仓库的内容拉取到本地？</blockquote>
 
 - 现在 github 上的仓库已经创建好了，现在这个仓库里面完全是空的，什么内容都没有。
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBp62aQNpm4iabh7u4543vvia1NLpLCiclkcPWIC1hdDFcvoSNhCZKznJ7g/640)
-
 - 然后是下面这个界面，在这个界面里面点击下面截图中右侧的那个按钮。以我自己创建的这个仓库为例，这时候复制到的内容是 `https://github.com/shuimu0579/test.git`
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBbicZSFLCQajFKvXaopo2u2d44B2NBr1SfDcUEqvnUicxc9gmTW2V2W0g/640)
 
 - 打开Visual Studio Code，操作步骤如下所示：
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBaaj1IQqxNAfJbb3EUkByq8Yv11AWtfR8CAxAl7o1wSe55z4NgibgY3Q/640)
-
 - 在Visual Studio Code打开test这个项目之后，首先新建.gitignore和README.md这两个文件，并打开TERMINAL这个终端命令行工具，详细介绍如图所示：
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBITpDvpNc2HP2sRwdabGiaCiaMXdZGliaGG1yM9sSPLMQX59xlibhh5arDg/640)
 
 <blockquote class="blockquote">怎么将本地增添或者修改的内容同步到github远程仓库</blockquote>
 
 现在已经增加了.gitignore和README.md这两个文件,现在怎么将这些修改同步到远程仓库？在**TERMINAL**面板里面,简简单单的几个git命令就能搞定了。修改的内容如下截图：
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBkFtJTGlbDyqd1JMZicxONWsbAtOg1kEK3Liaib0j70zDtBpLKKHiaRfwbA/640)
-
 - `git add .`，增加所有的修改到stash暂存区
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBRgbDMG3NIuicFo61BnTVvbFdNzYQGDo0TrM6QcRgicgcHRnFUZjX5RzA/640)
 
 - `git commit -m 'change'`，将暂存区的内容commit提交到本地仓库，并生成一次commitId--也就是生成提交记录。
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBZHz2bxUvs0RYEdw9V1nViclPFbQbxNmHC5PSfdcfCCehYUibKvcqHDUA/640)
-
 - 现在内容已经成功的提交到本地仓库，那怎么提交到远程github仓库? `git push`
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBVRSGicZD5NRvLMmfBSXX9wqhQWkqLohhIEVjRCJCsiaiaPMYHNQF7ZUjg/640)
-
 - 确认是否成功，在github网站上去看看
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBaI9R9wsopqicHFzGfIeQurBpNvd4pictZZW35zXEtAibPUjOpiaiba0xFLw/640)
 
 <blockquote class="blockquote">怎么拉取github上已经有更新的项目</blockquote>
 
 - github上test项目里面已经有自己加的两个文件，那么在另一台电脑设备上也想修改这个test项目的内容，应该怎么做呢？•打开Visual Studio Code，操作步骤如下所示：
 
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBaaj1IQqxNAfJbb3EUkByq8Yv11AWtfR8CAxAl7o1wSe55z4NgibgY3Q/640)
-
 - 进去本地test项目文件夹之后，首先执行`git pull`命令，保证拉下来的是最新的内容。
-
-![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSmDKrdL4RqTG541lj2ibIIHBY8m1r1VqqjGeVfoeuS1LkjfoDFj8b1JLTX98fujWopRz9IX7rN4s2A/640)
 
 - 本机电脑有了项目文件夹之后（我这里是test文件夹），以后就不需要每次`Clone Repository`了，因为你已经把项目克隆到本地，你要做的仅仅是每次想编辑这个项目的时候，**首先 git pull 一下**，免得不必要的内容冲突。
 - git常用的一些命令，可以网上搜索一下，参考示例：https://confluence.atlassian.com/bitbucketserver/basic-git-commands-776639767.html
