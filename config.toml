@@ -40,3 +40,8 @@ lightgallery = true
     icon = "twitter"
     name = "Twitter"
     url = "https://twitter.com/shuimu19"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
