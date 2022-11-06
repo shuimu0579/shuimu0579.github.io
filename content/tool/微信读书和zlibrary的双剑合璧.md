@@ -1,0 +1,70 @@
+---
+title: "微信读书和zlibrary的双剑合璧"
+date: 2022-11-05
+---
+<link rel="stylesheet" type="text/css" href="/common.css">
+
+这篇是《趁手的工具》系列的第八篇，主要是使用微信读书上传电子书，以及，使用 zlibrary 找到相关的电子书资源。
+
+这篇不用 kexue 上网也能搞定，能够 kexue 上网就更好了。
+
+只要微信读书和 zlibrary 强强联合，犹如倚天剑屠龙刀合体，体验真的不要太好。
+
+<blockquote class="blockquote">为什么选择微信读书？</blockquote>
+
+通过获得免费无限卡，采用这种方式我在微信读书上免费看了近两年。
+
+今年双十一微信读书买年卡有优惠，白嫖两年都有点不好意思了，这才办了一张年卡。
+
+微信读书推崇的是一种社交化的读书，可以看到朋友们在阅读哪些书，给自己带来启发。
+
+微信读书也有周阅读时长排名机制，利用了人们相互比较的心理，促使我们比我们的朋友读的更多一点。
+
+微信读书在我看来是一款非常优秀的软件，界面清爽，功能好用。
+
+微信读书基本终结了国内各大读书 App,好用到没朋友。在它之下，寸草不生，所向披靡。
+
+<blockquote class="blockquote">为什么选择 zlibrary</blockquote>
+
+谷歌或者百度搜索 `zlibrary` 你会得到你想要的 pdf 或者 epub 格式的书籍。
+
+在 zlibrary 里面能够搜到在微信读书里面没有上架的书籍，比如`沟通的方法`、`中县干部` 、`遥远的救世主`、`百年孤独`、`实力、运气与成功`等书籍，一般想看的书籍在 zlibrary 里面都能搜索到。
+
+<blockquote class="blockquote">如何找电子书资源，如何上传资源，如何阅读上传的电子书</blockquote>
+
+去 zlibrary[ https://singlelogin.org/ ] 找到你想要的资源，最好是下载 epub 格式的文件，这种格式非常适合于电子的阅读。
+
+去微信读书网页版[ https://weread.qq.com/ ] 上传你下载好的电子书资源
+
+去微信读书 App 查看上传的电子书
+
+![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCKHpzAcDDx8eG7WSlL2ChgPGHjbI3JP8p5zRibRqWuZfjEwZXHlnpEiaQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtC2TJibibgFvc7JsVrhNPbmoc7qnhL6qF9pflp5tpcM0tgu8J9fBwDCdvw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCmRQ7OVyTicDD6g9AYxIQADsjrnEYuUok8sowicpOMhvZ2m5RHCd8mu4g/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtClnfSGbL2oga6SicLYPBBTRRNuqO6Rpyd7vkKHLXs4ANyt0q4tLA0Jfg/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCcrvKvZuuekjWLm6LZ182ibJibAEnzQLpCqI5nRtbycC4xAkDHyx91ibibQ/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtC8pvowU651Zib2YZDqzNXjG8vhP6e8BZVewsG1IpKibPiaIlOSU0eVmZEA/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![Image](https://mmbiz.qpic.cn/mmbiz_png/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCUM9J0pCCyFtfCz6tTTLJTaph4XJjQDy28O5tPWEujTcfQhPLJFjGTw/640?wx_fmt=png&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCQeKicVfYBx4hWqib2oYiao7Srh3lsBNlYMdY11S4icFqk90C7KuN9ParVw/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCTGA8jMEbicwfzibQhMHZd67w8hpDQkSE93BSdiaxTib32WR7urRK0du1vg/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+阅读的习惯，是我们生活中为数不多的极其重要的习惯之一。  
+
+有了微信读书和 zlibrary 这样的工具，就能在书籍的海洋中尽情的遨游。
+
+最后的最后，我想以一段话作为结尾，与热爱阅读的你共勉：
+
+![Image](https://mmbiz.qpic.cn/mmbiz_jpg/8JQAibRtoSSlIV72FaIHeTC0YGRz4fKtCCZlaIAFLkkm9IKZ0r6iclR7caL0pZDdv1f9ZwHicdmEpnrSXnJqHiaenQ/640?wx_fmt=jpeg&wxfrom=5&wx_lazy=1&wx_co=1)
+
+学习是一种行动反射，不是为了晓得些“知识”，要切己体察，代入自己要事上琢磨，落实行动，这就是知行合一。否则，读书也是一种玩物丧志。
+
+
+题图来源：https://unsplash.com
