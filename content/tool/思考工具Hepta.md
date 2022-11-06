@@ -3,23 +3,19 @@ title: "思考工具Hepta"
 date: 2022-11-05
 ---
 <style>
-.blockquote{
-
+  .blockquote{
    margin-left:0.6em !important;
-
    padding:0.5em 1.2em !important;
-
    border-left:3px solid rgba(15,148,136,1) !important;
-
    width:100%;
-
    box-sizing:border-box !important;
-
    background-color:rgba(15,148,136,0.1) !important;
-
    color:#666 !important
-
-}
+  }
+  img{
+    display: inline-block;
+    width: 100%;
+  }
 </style>
 
 在给这篇文章取标题的时候，没有用笔记软件、记录工具、存储工具等字眼来命名，而是称Hepta这个软件是一个思考工具，一个基于可视化的卡片式的思考工具。

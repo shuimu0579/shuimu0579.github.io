@@ -4,23 +4,19 @@ date: 2022-08-07
 ---
 
 <style>
-.blockquote{
-
+  .blockquote{
    margin-left:0.6em !important;
-
    padding:0.5em 1.2em !important;
-
    border-left:3px solid rgba(15,148,136,1) !important;
-
    width:100%;
-
    box-sizing:border-box !important;
-
    background-color:rgba(15,148,136,0.1) !important;
-
    color:#666 !important
-
-}
+  }
+  img{
+    display: inline-block;
+    width: 100%;
+  }
 </style>
 
 ![Obsidian.png](https://s2.loli.net/2022/08/07/dG9iEe1IQo5Vquk.png)
