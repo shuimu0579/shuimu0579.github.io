@@ -40,6 +40,10 @@ lightgallery = true
     icon = "twitter"
     name = "Twitter"
     url = "https://twitter.com/shuimu19"
+  [[params.social]]
+    icon = "wechat"
+    name = "resume"
+    url = "https://suimulearn.cn/resume/"
 
 [markup]
   [markup.goldmark]
