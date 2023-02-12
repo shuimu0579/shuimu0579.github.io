@@ -11,3 +11,6 @@ img {
   width: 100%;
   display: inline-block;
 }
+.page-item.active .page-link{
+  color: #083537!important;
+}
