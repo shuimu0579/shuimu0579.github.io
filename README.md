@@ -8,3 +8,4 @@ hugo -D
 git push
 ```
 
+- 以后会用 cloudFlare 部署
