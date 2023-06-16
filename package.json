@@ -1,0 +1,33 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "覆盖前端测试方向的所有内容，包含 - 单元测试 - 组件测试 - 端对端测试",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/rss": "^0.0.30",
+    "feed": "^4.2.2",
+    "vitepress": "^1.0.0-alpha.74"
+  },
+  "directories": {
+    "doc": "docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shuimu0579/blog.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shuimu0579/blog/issues"
+  },
+  "homepage": "https://github.com/shuimu0579/blog#readme",
+  "dependencies": {
+    "rss": "^1.2.2"
+  }
+}
