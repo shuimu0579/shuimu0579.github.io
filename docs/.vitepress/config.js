@@ -123,6 +123,11 @@ export default defineConfig({
       },
     ],
   },
+  rewrites: {
+    "/rss": "/feed.xml",
+    "/rss.xml": "/feed.xml",
+    "/feed": "/feed.xml",
+  },
   buildEnd: async (config) => {
     const feed = new RSS({
       title: "suimu blog",
