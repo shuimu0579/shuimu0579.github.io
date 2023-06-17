@@ -2,10 +2,10 @@
 title: "微信读书App很好，但Reader让人惊艳"
 description: "Reader -- All in One 阅读器 "
 date: 2023-05-27
-imageUrl: "../public/image/reader.png"
+imageUrl: "/public/image/reader.png"
 ---
 
-![Ri_esrgan-v1-x2plus](../public/image/reader.png)
+![Ri_esrgan-v1-x2plus](/public/image/reader.png)
 
 大概半年前，我写了篇文章--微信读书和 z-library 的双剑合璧 ( https://mp.weixin.qq.com/s/JkB6jaRXhBUN3H0IAvItaA )。 这篇文章里面讲到怎么使用微信读书 App 看各种电子书。
 
