@@ -7,8 +7,8 @@ const hostname = "https://suimulearn.cn";
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "suimu blog",
-  description: "suimu blog",
+  title: "Suimu Blog",
+  description: "Suimu Blog",
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
@@ -87,7 +87,7 @@ export default defineConfig({
           },
           {
             text: "搭建个人Z-library电子书机器人",
-            link: "/guide/搭建个人Z-library电子书机器人",
+            link: "/tools/z-library-bot",
           },
           {
             text: "这个工具，我用了三年",
@@ -129,40 +129,32 @@ export default defineConfig({
     "/feed": "/feed.xml",
   },
   buildEnd: async (config) => {
+    // https://github.com/dylang/node-rss
     const feed = new RSS({
-      title: "suimu blog",
-      description: "suimu blog",
+      title: " Suimu Blog",
+      description: "Suimu Blog",
       site_url: hostname,
       feed_url: `${hostname}/feed.xml`,
-      language: "zh-CN",
       image_url: `${hostname}/avatar.jpeg`,
-      favicon: `${hostname}/favicon.ico`,
+      language: "zh-CN",
+      copyright: "2023 Suimu",
     });
-    // You might need to adjust this if your Markdown files
-    // are located in a subfolder
+
     const data = await createContentLoader("*/*.md", {
       excerpt: true,
       render: true,
     }).load();
 
-    console.log("data", data);
     data.sort(
       (a, b) => +new Date(b.frontmatter.date) - +new Date(a.frontmatter.date)
     );
-    for (const { url, frontmatter, html } of data) {
+    for (const { url, frontmatter } of data) {
+      console.log("data[0]", data[0]);
       feed.item({
         title: frontmatter.title,
-        id: `${hostname}/${url}`,
-        link: `${hostname}/${url}`,
         description: frontmatter.description,
-        content: html,
-        author: [
-          {
-            name: "suimu",
-            email: "shuimu0579@gmail.com",
-            link: "https://twitter.com/shuimu19",
-          },
-        ],
+        url: `${hostname}/${url}`,
+        author: "Suimu",
         date: frontmatter.date,
       });
     }

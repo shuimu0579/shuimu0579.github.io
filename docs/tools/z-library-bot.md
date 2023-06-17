@@ -1,7 +1,7 @@
 ---
 title: "搭建个人Z-library电子书机器人"
-description: "搭建个人Z-library电子书机器人"
-date: 2023-02-12
+description: "z-library-bot"
+date: 2023-06-17
 ---
 
 搭建个人 Z-library 电子书机器人，是使用 Z-library 下载电子书的终极解决方案之一。一旦搭建好这个机器人，下载电子书会非常的方便。

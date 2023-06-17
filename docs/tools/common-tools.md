@@ -2,6 +2,7 @@
 title: "常用工具汇总"
 description: "常用工具汇总"
 date: 2023-06-17
+imageUrl: "/image/reader.png"
 ---
 
 美国顶级投资人查理芒格在《人类误判心理学》中讲到过 25 种心里偏差，其中最后一种心理偏差就是，lollapalooza 倾向——数种心理倾向共同作用造成极端后果的倾向。
