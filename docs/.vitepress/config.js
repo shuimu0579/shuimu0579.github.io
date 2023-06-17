@@ -9,6 +9,20 @@ export default defineConfig({
   lang: "zh-CN",
   title: "Suimu Blog",
   description: "Suimu Blog",
+  head: [
+    [
+      "link",
+      {
+        rel: "alternate",
+        type: "application/rss+xml",
+        title: "RSS Feed",
+        href: "",
+      },
+      // would render:
+      //
+      // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    ],
+  ],
   lastUpdated: true,
   cleanUrls: true,
   themeConfig: {
