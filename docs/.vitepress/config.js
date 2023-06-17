@@ -134,6 +134,7 @@ export default defineConfig({
   },
   buildEnd: async (config) => {
     // https://github.com/dylang/node-rss
+    // https://laros.io/generating-an-rss-feed-with-vitepress
     const feed = new RSS({
       title: " Suimu Blog",
       description: "Suimu Blog",
@@ -157,7 +158,7 @@ export default defineConfig({
       feed.item({
         title: frontmatter.title,
         description: frontmatter.description,
-        url: `${hostname}/${url}`,
+        url: `${hostname}${url}`,
         author: "Suimu",
         date: frontmatter.date,
       });
