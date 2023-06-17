@@ -38,7 +38,7 @@ export default defineConfig({
         items: [
           {
             text: "常用工具汇总",
-            link: "/guide/常用工具汇总",
+            link: "/tools/common-tools",
           },
           {
             text: "微信读书App很好，但Reader让人惊艳",
