@@ -93,6 +93,10 @@ export default defineConfig({
             text: "这个工具，我用了三年",
             link: "/guide/这个工具，我用了三年",
           },
+          {
+            text: "test",
+            link: "/tools/test",
+          },
         ],
       },
       {
