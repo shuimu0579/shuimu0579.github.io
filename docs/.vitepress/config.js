@@ -18,9 +18,6 @@ export default defineConfig({
         title: "RSS Feed",
         href: "",
       },
-      // would render:
-      //
-      // <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     ],
   ],
   lastUpdated: true,
