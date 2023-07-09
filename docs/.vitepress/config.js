@@ -52,6 +52,10 @@ export default defineConfig({
             link: "/blog/tools/common-tools",
           },
           {
+            text: "ChatGPT大潮汹涌，一起奔向潮头的方向",
+            link: "/blog/tools/opencat",
+          },
+          {
             text: "微信读书App很好，但Reader让人惊艳",
             link: "/blog/tools/readwise-reader",
           },
