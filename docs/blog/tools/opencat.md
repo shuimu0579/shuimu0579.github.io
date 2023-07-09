@@ -5,7 +5,48 @@ date: 2023-07-09
 imageUrl: "/public/image/openCat.png"
 ---
 
-# ChatGPT 大潮汹涌，一起奔向潮头的方向
+<style>
+  /* Light theme */
+:root {
+  --link-blue-hsl: hsl(183, 75%, 12%);
+  --border-hsl: hsl(175, 82%, 32%);
+  --border-background-hsl: hsla(175, 82%, 32%, 0.1);
+  --border-color-hsl: hsla(240, 6%, 25%, 1);
+}
+
+/* Dark theme */
+.dark {
+  --link-blue-hsl: hsl(183, 75%, 12%);
+  --border-hsl: hsl(175, 82%, 32%);
+  --border-background-hsl: hsla(175, 82%, 32%, 0.1);
+  --border-color-hsl: hsla(60, 100%, 98%, 0.86);
+}
+
+.blockquote {
+  padding: 0.5em 1.2em !important;
+  border-left: 3px solid var(--border-hsl) !important;
+  width: 100%;
+  box-sizing: border-box !important;
+  background-color: var(--border-background-hsl) !important;
+  color: var(--border-color-hsl) !important;
+}
+img {
+  display: inline-block;
+}
+.page-item.active .page-link {
+  color: var(--link-blue-hsl) !important;
+}
+h2 {
+  text-align: left !important;
+  margin-block-start: 0.83em !important;
+  margin-block-end: 0.83em !important;
+  margin-inline-start: 0px !important;
+  margin-inline-end: 0px !important;
+  color: var(--border-hsl) !important;
+  border-top: none !important;
+}
+
+</style>
 
 ## ChatGPT
 
@@ -24,15 +65,17 @@ OpenAI API 是按量付费的。 以`GPT-3.5 Turbo 16K`模型为例：每使用 
 以`GPT-3.5 Turbo 16K`模型为例, 大概 4 美元可以访问 100 万个 token，相当于 750000 个单词。 75 万个单词只要不到 30 块钱人民币，够便宜的了。如果是以`GPT-3.5 Turbo 4K`模型为例, 大概 2 美元就可以访问 100 万个 token, 也就是不到 15 块钱。相比于 ChatGPT Plus 每个月 20 美元的费用，还是很划算的。
 
 GPT-3.5 Turbo:
-| Model | Input | Output |
+
+| Model       | Input               | Output             |
 | ----------- | ------------------- | ------------------ |
-| 4K context | $0.0015 / 1K tokens | $0.002 / 1K tokens |
-| 16K context | $0.003 / 1K tokens | $0.004 / 1K tokens |
+| 4K context  | $0.0015 / 1K tokens | $0.002 / 1K tokens |
+| 16K context | $0.003 / 1K tokens  | $0.004 / 1K tokens |
 
 GPT-4:
-| Model | Input | Output |
-| ----------- | ------------------- | ------------------ |
-| 8K context | $0.03 / 1K tokens | $0.06 / 1K tokens |
+
+| Model       | Input             | Output            |
+| ----------- | ----------------- | ----------------- |
+| 8K context  | $0.03 / 1K tokens | $0.06 / 1K tokens |
 | 32K context | $0.06 / 1K tokens | $0.12 / 1K tokens |
 
 ## OpenAI API + OpenCat 客户端
