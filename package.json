@@ -4,9 +4,9 @@
   "description": "覆盖前端测试方向的所有内容，包含 - 单元测试 - 组件测试 - 端对端测试",
   "main": "index.js",
   "scripts": {
-    "docs:dev": "vitepress dev docs",
-    "docs:build": "vitepress build docs",
-    "docs:preview": "vitepress preview docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs"
   },
   "keywords": [],
   "author": "",
