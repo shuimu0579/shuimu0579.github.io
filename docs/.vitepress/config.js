@@ -3,12 +3,12 @@ import { writeFileSync } from "fs";
 import RSS from "rss";
 import { defineConfig, createContentLoader } from "vitepress";
 
-const hostname = "https://suimulearn.cn";
+const hostname = "https://suimuchat.cn";
 
 export default defineConfig({
   lang: "zh-CN",
-  title: "Suimu Blog",
-  description: "Suimu Blog",
+  title: "Suimu Vitest Blog",
+  description: "Suimu Vitest Blog",
   head: [
     [
       "link",
@@ -110,8 +110,8 @@ export default defineConfig({
     // https://github.com/dylang/node-rss
     // https://laros.io/generating-an-rss-feed-with-vitepress
     const feed = new RSS({
-      title: " Suimu Blog",
-      description: "Suimu Blog",
+      title: " Suimu Vitest Blog",
+      description: "Suimu Vitest Blog",
       site_url: hostname,
       feed_url: `${hostname}/feed.xml`,
       image_url: `${hostname}/avatar.jpeg`,
