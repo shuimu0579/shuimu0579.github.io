@@ -91,6 +91,10 @@ dist
 # vuepress build output
 .vuepress/dist
 
+# vitepress build output
+.vitepress/dist
+.vitepress/cache
+
 # Serverless directories
 .serverless/
 
@@ -99,7 +103,6 @@ dist
 
 # DynamoDB Local files
 .dynamodb/
-
 # TernJS port file
 .tern-port
 .DS_Store

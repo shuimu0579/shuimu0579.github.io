@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "覆盖前端测试方向的所有内容，包含 - 单元测试 - 组件测试 - 端对端测试",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "dev": "vitepress dev docs",
     "build": "vitepress build docs",
@@ -12,8 +13,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/rss": "^0.0.30",
-    "vitepress": "^1.0.0-beta.2"
+    "@types/rss": "^0.0.30"
   },
   "directories": {
     "doc": "docs"
@@ -27,6 +27,7 @@
   },
   "homepage": "https://github.com/shuimu0579/blog#readme",
   "dependencies": {
-    "rss": "^1.2.2"
+    "rss": "^1.2.2",
+    "vitepress": "^1.0.0-rc.24"
   }
 }
